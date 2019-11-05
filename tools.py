@@ -23,7 +23,7 @@ def surface_between(surface, lower_bound, upper_bound):
 
 def load_data():
     rows = []
-    with open("/Users/eguillaume/Downloads/Ventes-d--Issy-les-Moulineaux--92-03112019.csv") as f:
+    with open("data/notaires/Ventes-de--Sannois--95-03112019.csv") as f:
         reader = csv.reader(f, delimiter=";")
 
         for idx, row in enumerate(reader):
