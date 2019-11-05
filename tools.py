@@ -47,6 +47,8 @@ def load_data():
                 continue
 
             rows.append(row)
+    print("len(rows) = {}".format(len(rows)))
+    exit()
     return rows
 
 
