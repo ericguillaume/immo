@@ -8,6 +8,10 @@ from tools import numeric_only, surface_under_30, surface_between_30_and_45, sur
 
 NOTAIRE_SALES_PER_CITY_DICT = {}
 
+'''
+    age and date of construction sometimes null, all other fields never are
+'''
+
 
 # manages RAM caching
 def notaire_sales(city,
